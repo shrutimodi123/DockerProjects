@@ -1,0 +1,12 @@
+step 1: create html file
+step 2: create dockerfile
+Step 3: Build docker image 
+docker build -t static-website
+Step 4: Run image
+docker run -d -p 8080:80 –name static-site static-website
+Step 5: verify container
+docker ps 
+step 6: open on browser
+localhost:8080
+step 7: verify image exits
+docker images
